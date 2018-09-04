@@ -1,6 +1,6 @@
 {
   "name": "atom-zcms-helper",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A atom extension for write ZCMS template",
   "keywords": [
     "zcms"
