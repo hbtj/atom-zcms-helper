@@ -1,18 +1,25 @@
 {
   "name": "atom-zcms-helper",
-  "main": "./lib/atom-zcms-helper",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.0.1",
+  "description": "A atom extension for write ZCMS template",
   "keywords": [
+    "zcms"
   ],
-  "activationCommands": {
-    "atom-workspace": "atom-zcms-helper:toggle"
+  "main": "./lib/atom-zcms-helper",
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
   },
-  "repository": "https://github.com/atom/atom-zcms-helper",
+  "readmeFilename": "README.md",
+  "repository": "https://github.com/abeet/atom-zcms-helper",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "pretty": "2.0.0"
   }
 }

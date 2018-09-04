@@ -1,12 +1,4 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle atom-zcms-helper",
-        "command": "atom-zcms-helper:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
